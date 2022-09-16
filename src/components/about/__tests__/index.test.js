@@ -4,7 +4,6 @@ import '@testing-library/jest-dom/extend-expect';
 import About from '..';
 
 
-
 afterEach(cleanup);
 
 describe('About component', () => {
@@ -18,4 +17,4 @@ describe('About component', () => {
     
     expect(asFragment()).toMatchSnapshot();
 });
-});
+})
